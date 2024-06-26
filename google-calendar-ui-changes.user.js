@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Google Calendar UI Changes
-// @version      1.0
+// @version      1.1
 // @description  Changes to improve UI
 // @author       Dan Lim
 // @match        https://calendar.google.com/*
@@ -36,8 +36,8 @@
             min-height: 40vh;
         }
 
-        /* event popup */
-        .agOyMd .UfeRlc {
+        /* event popup heading */
+        .UfeRlc[data-text] {
             font-size: larger; /* is actually smaller size */
             padding-bottom: 10px;
             max-height: none;
